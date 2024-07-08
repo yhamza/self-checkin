@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                      // Set the ECMAScript target version
+    "module": "ESNext",                      // Specify module code generation
+    "strict": true,                          // Enable all strict type-checking options
+    "esModuleInterop": true,                 // Allow default imports from modules with CommonJS-style exports
+    "skipLibCheck": true,                    // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing for filenames
+    "outDir": "dist"                         // Specify output directory for compiled files
+  },
+  "include": [
+    "src/**/*.ts"                           // Specify paths to include TypeScript source files
+  ]
+}
